@@ -2,14 +2,15 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.ComponentModel;
 using System.ComponentModel.Design.Serialization;
 using System.Globalization;
-using System.Windows.Markup;
-using System.Xaml.Replacements;
-using TypeListConverter = System.Xaml.Replacements.TypeListConverter;
+using Standard.Windows.Markup;
+using Standard.Xaml.Replacements;
+using TypeListConverter = Standard.Xaml.Replacements.TypeListConverter;
 
-namespace System.Xaml.Schema
+namespace Standard.Xaml.Schema
 {
     internal class BuiltInValueConverter<TConverterBase> : XamlValueConverter<TConverterBase>
         where TConverterBase : class
@@ -306,7 +307,8 @@ namespace System.Xaml.Schema
 
                     if (stdConverter == null)
                     {
-                        s_Uri = new BuiltInValueConverter<TypeConverter>(typeof(UriTypeConverter), () => new UriTypeConverter());
+                        s_Uri = new BuiltInValueConverter<TypeConverter>(typeof(Standard.Xaml.Replacements.UriTypeConverter),
+							                                             () => new Standard.Xaml.Replacements.UriTypeConverter());
                     }
                     else
                     {

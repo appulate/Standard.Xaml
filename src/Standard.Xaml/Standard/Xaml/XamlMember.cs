@@ -8,11 +8,12 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Security;
 using System.Threading;
-using System.Windows.Markup;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml.Schema;
 using MS.Internal.Xaml.Parser;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlMember : IEquatable<XamlMember>
     {

@@ -11,14 +11,15 @@ using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Security;
 using System.Text;
-using System.Windows.Markup;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using System.Xml;
 using System.Xml.Serialization;
 using MS.Internal.Xaml.Runtime;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     using REPLACEMENT = Replacements;
 

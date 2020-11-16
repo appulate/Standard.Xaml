@@ -5,9 +5,9 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Xaml;
+using Standard.Xaml;
 using MS.Internal.Xaml.Runtime;
-using XAML3 = System.Windows.Markup;
+using XAML3 = Standard.Windows.Markup;
 
 namespace MS.Internal.Xaml.Context
 {

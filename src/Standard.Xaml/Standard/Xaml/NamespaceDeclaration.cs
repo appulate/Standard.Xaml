@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     [DebuggerDisplay("Prefix={Prefix} Namespace={Namespace}")]
     public class NamespaceDeclaration

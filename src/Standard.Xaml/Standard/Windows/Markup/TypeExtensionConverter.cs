@@ -11,13 +11,14 @@
 //  Created:   04/28/2005 Microsoft
 //
 
+using System;
 using System.ComponentModel;
 using System.ComponentModel.Design.Serialization;
 using System.Globalization;
 using System.Security;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     class TypeExtensionConverter : TypeConverter
     {

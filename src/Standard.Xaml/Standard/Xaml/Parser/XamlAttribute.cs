@@ -4,8 +4,8 @@
 
 using System;
 using System.Diagnostics;
-using System.Xaml;
-using System.Xaml.MS.Impl;
+using Standard.Xaml;
+using Standard.Xaml.MS.Impl;
 using System.Xml;
 using MS.Internal.Xaml.Context;
 

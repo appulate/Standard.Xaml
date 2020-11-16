@@ -1,6 +1,6 @@
 using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
 	/// <summary>
 	/// This attribute defines method, which responcible for object serialization.

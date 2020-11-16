@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public interface IAttachedPropertyStore
     {

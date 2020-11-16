@@ -2,10 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.ComponentModel;
-using System.Windows.Markup;
+using Standard.Windows.Markup;
 
-namespace System.Xaml.Replacements
+namespace Standard.Xaml.Replacements
 {
 
     // This is a helper class used by the DateTimeConverter2 to call the DateTimeValueSerializer.

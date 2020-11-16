@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Xaml;
+using Standard.Xaml;
 
 namespace MS.Internal.Xaml.Parser
 {

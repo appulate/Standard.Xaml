@@ -9,10 +9,10 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Security;
-using System.Xaml;
-using System.Xaml.MS.Impl;
-using System.Xaml.Permissions;
-using System.Xaml.Schema;
+using Standard.Xaml;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Permissions;
+using Standard.Xaml.Schema;
 
 namespace MS.Internal.Xaml.Runtime
 {

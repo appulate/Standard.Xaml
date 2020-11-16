@@ -11,7 +11,9 @@
 //  Created:     11/17/2005
 //
 
-namespace System.Windows.Markup
+using System;
+
+namespace Standard.Windows.Markup
 {
 
     /// <summary>

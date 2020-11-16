@@ -2,10 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     // provides a place to Write a list of Xaml nodes
     // and Read them back.  W/o exposing the 'XamlNode' type.

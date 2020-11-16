@@ -2,11 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.ComponentModel;
 using System.Globalization;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     public class NameReferenceConverter: TypeConverter 
     {

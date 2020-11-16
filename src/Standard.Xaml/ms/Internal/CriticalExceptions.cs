@@ -6,21 +6,21 @@ using System;
 
 #if PBTCOMPILER
 namespace MS.Internal.Markup
-#elif SYSTEM_XAML
-namespace System.Xaml
+#elif STANDARD_XAML
+namespace Standard.Xaml
 #else
 using MS.Internal.WindowsBase; // FriendAccessAllowed
 
 namespace MS.Internal
 #endif
 {
-    #if !PBTCOMPILER && !SYSTEM_XAML
+    #if !PBTCOMPILER && !STANDARD_XAML
     [FriendAccessAllowed]
     #endif
     internal static class CriticalExceptions
     {
         // these are all the exceptions considered critical by PreSharp
-        #if !PBTCOMPILER && !SYSTEM_XAML
+        #if !PBTCOMPILER && !STANDARD_XAML
         [FriendAccessAllowed]
         #endif
         internal static bool IsCriticalException(Exception ex)
@@ -37,7 +37,7 @@ namespace MS.Internal
 
         // these are exceptions that we should treat as critical when they
         // arise during callbacks into application code
-        #if !PBTCOMPILER && !SYSTEM_XAML
+        #if !PBTCOMPILER && !STANDARD_XAML
         [FriendAccessAllowed]
         internal static bool IsCriticalApplicationException(Exception ex)
         {
@@ -50,7 +50,7 @@ namespace MS.Internal
         }
         #endif
 
-        #if !PBTCOMPILER && !SYSTEM_XAML
+        #if !PBTCOMPILER && !STANDARD_XAML
         [FriendAccessAllowed]
         #endif
         internal static Exception Unwrap(Exception ex)

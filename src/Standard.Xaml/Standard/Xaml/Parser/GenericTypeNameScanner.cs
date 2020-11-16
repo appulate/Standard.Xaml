@@ -4,7 +4,7 @@
 
 using System;
 using System.Diagnostics;
-using System.Xaml.MS.Impl;
+using Standard.Xaml.MS.Impl;
 
 namespace MS.Internal.Xaml.Parser
 {

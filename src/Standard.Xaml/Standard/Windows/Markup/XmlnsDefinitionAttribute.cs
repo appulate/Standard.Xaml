@@ -9,9 +9,10 @@
 //  Contents: Attribute that keep mapping between Xml namespace and  
 //            the known types in assembly.   
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     ///

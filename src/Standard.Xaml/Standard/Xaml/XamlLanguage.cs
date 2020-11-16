@@ -6,12 +6,13 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Reflection;
-using System.Windows.Markup;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using System.Xml.Serialization;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public static class XamlLanguage
     {

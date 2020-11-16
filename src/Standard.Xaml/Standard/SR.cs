@@ -5,7 +5,7 @@
 using System;
 using System.Resources;
 using System.Runtime.CompilerServices;
-using System.Xaml;
+using Standard.Xaml;
 
 #if WINDOWS_BASE
 namespace MS.Internal.WindowsBase

@@ -4,7 +4,7 @@
 
 //  Contents:  Limited converter for string <--> System.Uri
 
-namespace System.Xaml.Replacements
+namespace Standard.Xaml.Replacements
 {
     using System;
     using System.ComponentModel;

@@ -2,11 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace System.Xaml.Schema
+namespace Standard.Xaml.Schema
 {
     internal class ReferenceEqualityComparer<T> : EqualityComparer<T> where T : class
     {

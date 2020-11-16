@@ -10,12 +10,13 @@ using System.Reflection;
 using System.Security;
 using System.Text;
 using System.Threading;
-using System.Windows.Markup;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using MS.Internal.Xaml.Parser;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlType : IEquatable<XamlType>
     {

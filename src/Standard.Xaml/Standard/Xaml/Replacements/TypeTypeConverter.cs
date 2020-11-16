@@ -2,12 +2,13 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.ComponentModel;
 using System.Globalization;
-using System.Xaml.Schema;
-using XAML3 = System.Windows.Markup;
+using Standard.Xaml.Schema;
+using XAML3 = Standard.Windows.Markup;
 
-namespace System.Xaml.Replacements
+namespace Standard.Xaml.Replacements
 {
     /// <summary>
     /// TypeConverter for System.Type

@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Xaml;
+using Standard.Xaml;
 using System.Xml;
 
 namespace MS.Internal.Xaml.Parser

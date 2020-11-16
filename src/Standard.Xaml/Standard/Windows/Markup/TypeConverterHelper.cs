@@ -9,16 +9,16 @@ using System.Reflection;
 using System.ComponentModel;
 using System.Globalization;
 using System.Diagnostics;
-#if SYSTEM_XAML
-using System.Xaml.Replacements;
+#if STANDARD_XAML
+using Standard.Xaml.Replacements;
 #endif
 
 #if PBTCOMPILER
 namespace MS.Internal.Markup
-#elif SYSTEM_XAML
-namespace System.Xaml
+#elif STANDARD_XAML
+namespace Standard.Xaml
 #else
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 #endif
 {
     /// <summary>
@@ -37,7 +37,7 @@ namespace System.Windows.Markup
             }
         }
 
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
         internal static MemberInfo GetMemberInfoForPropertyConverter(object dpOrPiOrMi)
         {
             MemberInfo memberInfo = dpOrPiOrMi as PropertyInfo;
@@ -157,7 +157,7 @@ namespace System.Windows.Markup
 
             return converterType;
         }
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
         internal static Type GetCoreConverterTypeFromCustomType(Type type)
         {
             Type converterType = null;
@@ -320,7 +320,7 @@ namespace System.Windows.Markup
             {
                 typeConverter = new System.ComponentModel.CultureInfoConverter();
             }
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
             else if (type == typeof(Type))
             {
                 typeConverter = new System.Windows.Markup.TypeTypeConverter();
@@ -328,7 +328,7 @@ namespace System.Windows.Markup
 #else
             else if (type == typeof(Type))
             {
-                typeConverter = new System.Xaml.Replacements.TypeTypeConverter();
+                typeConverter = new Standard.Xaml.Replacements.TypeTypeConverter();
             }
 #endif
             else if (type == typeof(DateTime))
@@ -420,7 +420,7 @@ namespace System.Windows.Markup
             {
                 typeConverter = new System.ComponentModel.CultureInfoConverter();
             }
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
             else if (typeof(Type).IsAssignableFrom(type))
             {
                 typeConverter = new System.Windows.Markup.TypeTypeConverter();
@@ -428,7 +428,7 @@ namespace System.Windows.Markup
 #else
             else if (type == typeof(Type))
             {
-                typeConverter = new System.Xaml.Replacements.TypeTypeConverter();
+                typeConverter = new Standard.Xaml.Replacements.TypeTypeConverter();
             }
 #endif
             else if (typeof(DateTime).IsAssignableFrom(type))
@@ -437,7 +437,7 @@ namespace System.Windows.Markup
             }
             else if (typeof(Uri).IsAssignableFrom(type))
             {
-                typeConverter = new System.Xaml.Replacements.UriTypeConverter();
+                typeConverter = new Standard.Xaml.Replacements.UriTypeConverter();
             }
 
             return typeConverter;

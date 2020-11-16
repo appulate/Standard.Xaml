@@ -13,9 +13,10 @@
 //  Created:     06/07/2005 Microsoft
 //
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     /// Can be specified on a collection type to indicate which 

@@ -5,8 +5,8 @@
 //  Contents:  TypeConverter to ValueSerializer adapter
 
 using System.ComponentModel;
-using System.Windows.Markup;
-using System.Xaml;
+using Standard.Windows.Markup;
+using Standard.Xaml;
 
 namespace MS.Internal.Serialization
 {

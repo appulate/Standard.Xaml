@@ -11,10 +11,11 @@
 //  Created:   04/28/2005 Microsoft
 //
 
+using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup 
+namespace Standard.Windows.Markup 
 {
     /// <summary>
     /// Context provided to ValueSerializer that can be used to special case serialization for different users of the 

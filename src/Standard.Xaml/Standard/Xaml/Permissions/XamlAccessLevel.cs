@@ -24,9 +24,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Xaml.Permissions
+namespace Standard.Xaml.Permissions
 {
 	[SerializableAttribute]
 	public class XamlAccessLevel

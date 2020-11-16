@@ -2,10 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System.Windows.Markup;
-using System.Xaml.Permissions;
+using Standard.Windows.Markup;
+using Standard.Xaml.Permissions;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlObjectWriterSettings : XamlWriterSettings
     {

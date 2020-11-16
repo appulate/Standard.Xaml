@@ -2,9 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup 
+namespace Standard.Windows.Markup 
 {
     ///<summary>
     ///     The IUriContext interface allows elements (like Frame, PageViewer) and type converters

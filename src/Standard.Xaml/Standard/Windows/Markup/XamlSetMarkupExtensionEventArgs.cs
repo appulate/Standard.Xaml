@@ -2,9 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System.Xaml;
+using Standard.Xaml;
+using System;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     public class XamlSetMarkupExtensionEventArgs : XamlSetValueEventArgs
     {

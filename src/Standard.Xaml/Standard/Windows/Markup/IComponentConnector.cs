@@ -14,7 +14,7 @@
 
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     /// Provides methods used internally by the BamlReader

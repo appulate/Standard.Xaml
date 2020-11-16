@@ -3,8 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using MS.Internal.Xaml.Context;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     internal enum SavedContextType { Template, ReparseValue, ReparseMarkupExtension }
 

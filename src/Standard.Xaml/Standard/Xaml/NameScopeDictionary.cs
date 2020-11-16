@@ -2,13 +2,14 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Windows.Markup;
-using System.Xaml.MS.Impl;
+using Standard.Windows.Markup;
+using Standard.Xaml.MS.Impl;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     //
     // The implementation for this class is taken directly from the source of NameScope, including the use

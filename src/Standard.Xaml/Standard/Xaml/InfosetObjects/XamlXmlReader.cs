@@ -5,14 +5,15 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using System.Xml;
 using MS.Internal.Xaml;
 using MS.Internal.Xaml.Context;
 using MS.Internal.Xaml.Parser;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlXmlReader : XamlReader, IXamlLineInfo
     {

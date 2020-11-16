@@ -8,15 +8,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Text;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using MS.Internal.Xaml.Context;
 using MS.Internal.Xaml.Parser;
 using MS.Internal.Xaml.Runtime;
-using XAML3 = System.Windows.Markup;
+using XAML3 = Standard.Windows.Markup;
+using System;
 
-
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlObjectWriter : XamlWriter, IXamlLineInfoConsumer, IAddLineInfo, ICheckIfInitialized
     {

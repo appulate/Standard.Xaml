@@ -10,10 +10,10 @@ using System.Collections.Generic;
 
 #if PBTCOMPILER
 namespace MS.Internal.Markup
-#elif SYSTEM_XAML
-namespace System.Xaml
+#elif STANDARD_XAML
+namespace Standard.Xaml
 #else
-namespace System.Windows.Markup 
+namespace Standard.Windows.Markup 
 #endif
 {
     internal class XmlWrappingReader : XmlReader, IXmlLineInfo, IXmlNamespaceResolver {

@@ -5,8 +5,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Windows.Markup;
-using System.Xaml;
+using Standard.Windows.Markup;
+using Standard.Xaml;
 using MS.Internal.Xaml.Context;
 
 namespace MS.Internal.Xaml

@@ -10,9 +10,10 @@
 //
 // 
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
 
     /// <summary>

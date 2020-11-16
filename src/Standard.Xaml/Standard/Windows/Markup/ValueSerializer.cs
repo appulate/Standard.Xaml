@@ -16,9 +16,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Xaml;
-using System.Xaml.Replacements;
+using Standard.Xaml;
+using Standard.Xaml.Replacements;
 using MS.Internal.Serialization;
+using System;
 
 //DateTimeConverter2
 
@@ -26,7 +27,7 @@ using MS.Internal.Serialization;
 
 #pragma warning disable 1634, 1691  // suppressing PreSharp warnings
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     /// ValueSerializer allows a type to declare a serializer to control how the type is serialized to and from strings. 

@@ -27,9 +27,9 @@ namespace MS.Internal.Markup
 using MS.Utility;
 using MS.Internal.WindowsBase;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 #else
-namespace System.Xaml
+namespace Standard.Xaml
 #endif
 {
     /// <summary>

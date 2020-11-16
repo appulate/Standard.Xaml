@@ -6,10 +6,11 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
-using System.Xaml.MS.Impl;
+using Standard.Xaml.MS.Impl;
 using MS.Internal.Xaml.Parser;
+using System;
 
-namespace System.Xaml.Schema
+namespace Standard.Xaml.Schema
 {
     class XamlNamespace
     {

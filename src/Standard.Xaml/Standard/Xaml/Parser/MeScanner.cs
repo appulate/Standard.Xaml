@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using System.Xaml;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Xaml;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using MS.Internal.Xaml.Context;
 
 namespace MS.Internal.Xaml.Parser

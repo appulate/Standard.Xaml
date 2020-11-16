@@ -5,9 +5,10 @@
 // Used to store mapping information for names occuring 
 // within the logical tree section.
 
+using System;
 using System.Globalization;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     /// <summary>
     ///     The string used in RuntimeNameProperty is expected to follow certain

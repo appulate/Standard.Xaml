@@ -5,12 +5,13 @@
 // Used to store mapping information for names occuring 
 // within the logical tree section.
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Windows.Markup;
+using Standard.Windows.Markup;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     /// <summary>
     /// Used to store mapping information for names occuring 

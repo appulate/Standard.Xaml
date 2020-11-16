@@ -6,7 +6,7 @@
 
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {  
     /// <summary>
     /// INameScope- Defines the basic Name Scoping interface for root classes

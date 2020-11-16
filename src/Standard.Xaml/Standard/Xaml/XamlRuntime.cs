@@ -6,9 +6,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Windows.Markup;
-using System.Xaml;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml;
+using Standard.Xaml.Schema;
 
 namespace MS.Internal.Xaml.Runtime
 {

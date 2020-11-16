@@ -7,11 +7,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using System.Xaml;
-using System.Xaml.Schema;
+using Standard.Xaml;
+using Standard.Xaml.Schema;
 using System.Xml;
 using System.Xml.Serialization;
-using XAML3 = System.Windows.Markup;
+using XAML3 = Standard.Windows.Markup;
 
 namespace MS.Internal.Xaml.Runtime
 {

@@ -10,25 +10,25 @@ using System.Globalization;
 using System.Diagnostics;
 using System.Threading;
 
-#if SYSTEM_XAML
-using System.Xaml;
+#if STANDARD_XAML
+using Standard.Xaml;
 #endif
 
 #if PBTCOMPILER
 using MS.Utility;
 namespace MS.Internal.Markup
-#elif SYSTEM_XAML
+#elif STANDARD_XAML
 using System.Windows;
 
-namespace System.Xaml
+namespace Standard.Xaml
 #else
 using MS.Internal.WindowsBase;
 using System.Windows;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 #endif
 {
-#if !PBTCOMPILER && !SYSTEM_XAML
+#if !PBTCOMPILER && !STANDARD_XAML
     [FriendAccessAllowed]
 #endif
 
@@ -44,7 +44,7 @@ namespace System.Windows.Markup
     internal delegate bool IsXmlNamespaceSupportedCallback(string xmlNamespace, out string newXmlNamespace);
     delegate void HandleElementCallback(int elementDepth, ref bool more);
     delegate void HandleAttributeCallback(int elementDepth);
-#if !PBTCOMPILER && !SYSTEM_XAML
+#if !PBTCOMPILER && !STANDARD_XAML
     [FriendAccessAllowed]
 #endif
     internal sealed class XmlCompatibilityReader : XmlWrappingReader

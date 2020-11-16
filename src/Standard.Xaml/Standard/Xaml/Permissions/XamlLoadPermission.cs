@@ -24,9 +24,9 @@ using System;
 using System.Collections.Generic;
 using System.Security;
 using System.Security.Permissions;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Xaml.Permissions
+namespace Standard.Xaml.Permissions
 {
 	[Serializable]
 	public sealed class XamlLoadPermission : CodeAccessPermission, IUnrestrictedPermission

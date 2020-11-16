@@ -7,10 +7,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Security;
-using System.Windows.Markup;
-using System.Xaml;
-using System.Xaml.Permissions;
-using System.Xaml.Schema;
+using Standard.Windows.Markup;
+using Standard.Xaml;
+using Standard.Xaml.Permissions;
+using Standard.Xaml.Schema;
 
 namespace MS.Internal.Xaml.Runtime
 {

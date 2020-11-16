@@ -8,8 +8,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Windows;
 using System.Diagnostics.CodeAnalysis;
-#if SYSTEM_XAML
-using System.Xaml;
+#if STANDARD_XAML
+using Standard.Xaml;
 #else
 using MS.Internal.WindowsBase;
 #endif
@@ -51,8 +51,8 @@ using MS.Internal.WindowsBase;
     // CA1812:AvoidUninstantiatedInternalClasses
     //
 
-#if SYSTEM_XAML
-namespace System.Xaml.MS.Impl
+#if STANDARD_XAML
+namespace Standard.Xaml.MS.Impl
 #else
 namespace MS.Utility
 #endif
@@ -1685,7 +1685,7 @@ namespace MS.Utility
     // Use FrugalObjectList when more than one reference to the list is needed.
     // The "object" in FrugalObjectLIst refers to the list itself, not what the list contains.
 
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
     [FriendAccessAllowed] // Built into Core, also used by Framework.
 #endif
     internal class FrugalObjectList<T>
@@ -2019,7 +2019,7 @@ namespace MS.Utility
 
     // Use FrugalStructList when only one reference to the list is needed.
     // The "struct" in FrugalStructList refers to the list itself, not what the list contains.
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
     [FriendAccessAllowed] // Built into Core, also used by Framework.
 #endif
     internal struct FrugalStructList<T>

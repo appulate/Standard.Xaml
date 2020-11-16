@@ -11,9 +11,10 @@
 //  Created:   04/28/2005 Microsoft
 //
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     ///

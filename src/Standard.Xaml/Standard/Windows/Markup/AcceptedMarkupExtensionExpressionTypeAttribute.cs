@@ -2,7 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.Windows.Markup
+using System;
+
+namespace Standard.Windows.Markup
 {
     [Obsolete("This is not used by the XAML parser. Please look at XamlSetMarkupExtensionAttribute.")]
     [AttributeUsage(AttributeTargets.Class, AllowMultiple=true, Inherited=true)]

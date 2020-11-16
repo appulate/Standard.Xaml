@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Windows.Markup;
-using System.Xaml;
+using Standard.Windows.Markup;
+using Standard.Xaml;
 
 namespace MS.Internal.Xaml.Context
 {

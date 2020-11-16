@@ -4,9 +4,9 @@
 
 using System.ComponentModel;
 using System.Globalization;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     public class XamlSetTypeConverterEventArgs : XamlSetValueEventArgs
     {

@@ -7,7 +7,7 @@
 //
 
 using System.Runtime.CompilerServices;
-using System.Windows.Markup;
+using Standard.Windows.Markup;
 
 //[assembly:Dependency("mscorlib,", LoadHint.Always)]
 //[assembly:Dependency("System,", LoadHint.Always)]
@@ -17,4 +17,4 @@ using System.Windows.Markup;
 //[assembly: TypeForwardedTo(typeof(System.Xaml.Permissions.XamlLoadPermission))]
 //[assembly: TypeForwardedTo(typeof(System.Windows.Markup.ValueSerializerAttribute))]
 
-[assembly:XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml", "System.Windows.Markup")]
+[assembly:XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml", "Standard.Windows.Markup")]

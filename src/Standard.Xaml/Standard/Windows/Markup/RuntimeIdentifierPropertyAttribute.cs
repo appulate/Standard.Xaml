@@ -15,9 +15,9 @@ namespace MS.Internal.Markup
 #elif WINDOWS_BASE
 using MS.Internal.WindowsBase;     // FriendAccessAllowed
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 #else
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 #endif
 {
 #if !PBTCOMPILER && !TARGETTING35SP1 && !WINDOWS_BASE
@@ -52,7 +52,7 @@ namespace System.Windows.Markup
     }
 #endif
 
-#if !SYSTEM_XAML
+#if !STANDARD_XAML
     /// <summary>
     ///     The string used in RuntimeNameProperty is expected to follow certain
     /// rules.  IsValidIdentifierName checks the given string against the rules.

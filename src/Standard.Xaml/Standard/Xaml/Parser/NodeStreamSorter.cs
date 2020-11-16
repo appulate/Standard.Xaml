@@ -6,8 +6,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Xaml;
-using System.Xaml.MS.Impl;
+using Standard.Xaml;
+using Standard.Xaml.MS.Impl;
 using MS.Internal.Xaml.Context;
 using MS.Internal.Xaml.Parser;
 

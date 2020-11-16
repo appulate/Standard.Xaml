@@ -21,7 +21,7 @@ namespace MS.Internal.PresentationUI
 namespace MS.Internal.UIAutomationTypes
 #elif DRT
 namespace MS.Internal.Drt
-#elif SYSTEM_XAML
+#elif STANDARD_XAML
 namespace MS.Internal.WindowsBase  //current copy of XmlMarkupCompatibilityReader uses this ns for FAAA.
 #else
 #error Attempt to define FriendAccessAllowedAttribute in an unknown assembly.

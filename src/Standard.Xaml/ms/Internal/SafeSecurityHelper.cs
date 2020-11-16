@@ -12,8 +12,8 @@ using System.Security;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
-#if SYSTEM_XAML
-using TypeConverterHelper = System.Xaml.TypeConverterHelper;
+#if STANDARD_XAML
+using TypeConverterHelper = Standard.Xaml.TypeConverterHelper;
 #else
 using Microsoft.Win32;
 using MS.Win32;
@@ -36,8 +36,8 @@ namespace MS.Internal.PresentationFramework
 namespace MS.Internal.ReachFramework
 #elif DRT
 namespace MS.Internal.Drt
-#elif SYSTEM_XAML
-namespace System.Xaml
+#elif STANDARD_XAML
+namespace Standard.Xaml
 #else
 #error Class is being used from an unknown assembly.
 #endif
@@ -62,7 +62,7 @@ namespace System.Xaml
 
 #if PRESENTATION_CORE || PRESENTATIONFRAMEWORK ||REACHFRAMEWORK || DEBUG
 
-#if !WINDOWS_BASE && !SYSTEM_XAML
+#if !WINDOWS_BASE && !STANDARD_XAML
         /// <summary>
         ///     Given an assembly, returns the partial name of the assembly.
         /// </summary>
@@ -110,7 +110,7 @@ namespace System.Xaml
         }
 #endif // PRESENTATIONFRAMEWORK
 
-#if WINDOWS_BASE || PRESENTATION_CORE || SYSTEM_XAML
+#if WINDOWS_BASE || PRESENTATION_CORE || STANDARD_XAML
 
         // Cache of Assembly -> AssemblyName, because calling new AssemblyName() is expensive.
         // If the assembly is static, the key is the assembly; if it's dynamic, the key is a WeakRefKey
@@ -238,13 +238,13 @@ namespace System.Xaml
             }
         }
 
-#endif  // WINDOWS_BASE || PRESENTATION_CORE || SYSTEM_XAML
+#endif  // WINDOWS_BASE || PRESENTATION_CORE || STANDARD_XAML
 
         //
         // Determine if two Public Key Tokens are the same.
         //
 #if !REACHFRAMEWORK
-#if PRESENTATIONFRAMEWORK || SYSTEM_XAML || PRESENTATION_CORE
+#if PRESENTATIONFRAMEWORK || STANDARD_XAML || PRESENTATION_CORE
         internal
 #else
         private
@@ -375,7 +375,7 @@ namespace System.Xaml
         internal const string IMAGE = "image";
     }
 
-#if WINDOWS_BASE || PRESENTATION_CORE || SYSTEM_XAML
+#if WINDOWS_BASE || PRESENTATION_CORE || STANDARD_XAML
     // for use as the key to a dictionary, when the "real" key is an object
     // that we should not keep alive by a strong reference.
     class WeakRefKey : WeakReference

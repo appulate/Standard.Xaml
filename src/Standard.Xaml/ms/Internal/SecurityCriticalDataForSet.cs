@@ -25,14 +25,14 @@ using System.Security ;
     using MS.Internal.UIAutomationTypes;
 #elif DRT
     using MS.Internal.Drt;
-#elif SYSTEM_XAML
+#elif STANDARD_XAML
     using MS.Internal.WindowsBase;
 #else
 #error Attempt to use FriendAccessAllowedAttribute from an unknown assembly.
 using MS.Internal.YourAssemblyName;
 #endif
 
-#if SYSTEM_XAML
+#if STANDARD_XAML
 namespace MS.Internal.Xaml
 #else
 namespace MS.Internal

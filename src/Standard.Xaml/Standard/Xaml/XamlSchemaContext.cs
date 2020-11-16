@@ -9,14 +9,15 @@ using System.Reflection;
 using System.Security;
 using System.Text;
 using System.Threading;
-using System.Xaml.MS.Impl;
-using System.Xaml.Schema;
+using Standard.Xaml.MS.Impl;
+using Standard.Xaml.Schema;
 using MS.Internal.Xaml.Parser;
+using System;
 #if !TARGETTING35SP1
 using System.Collections.Concurrent;
 #endif
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     /// <remarks>
     /// This class, and the closure of its references (i.e. XamlType, XamlMember, etc) are all

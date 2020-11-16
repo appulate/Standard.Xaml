@@ -2,11 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.ComponentModel;
 using System.Globalization;
-using XAML3 = System.Windows.Markup;
+using XAML3 = Standard.Windows.Markup;
 
-namespace System.Xaml.Replacements
+namespace Standard.Xaml.Replacements
 {
     // Not sure if this type converter is used at all.
     // we need to either make this a useful type converter or remove the code.

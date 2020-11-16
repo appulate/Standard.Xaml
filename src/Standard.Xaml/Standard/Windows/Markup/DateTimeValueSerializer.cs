@@ -7,12 +7,13 @@
 *
 \***************************************************************************/
 
+using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Text;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
 
     //+--------------------------------------------------------------------------------------

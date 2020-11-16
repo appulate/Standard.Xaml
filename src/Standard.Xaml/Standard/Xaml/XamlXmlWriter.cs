@@ -7,11 +7,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using System.Xaml.MS.Impl;
+using Standard.Xaml.MS.Impl;
 using System.Xml;
 using MS.Internal.Xaml.Parser;
+using System;
 
-namespace System.Xaml
+namespace Standard.Xaml
 {
     public class XamlXmlWriter : XamlWriter
     {

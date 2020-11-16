@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Xaml;
+using Standard.Xaml;
 using MS.Internal.Xaml.Context;
 
 namespace MS.Internal.Xaml.Parser

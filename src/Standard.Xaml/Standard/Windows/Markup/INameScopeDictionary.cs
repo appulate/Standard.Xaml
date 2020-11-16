@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     public interface INameScopeDictionary : INameScope, IDictionary<string, object>
     {

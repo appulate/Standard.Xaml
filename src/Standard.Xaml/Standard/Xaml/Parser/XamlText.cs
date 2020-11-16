@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 using System.Text;
-using System.Xaml;
+using Standard.Xaml;
 
 namespace MS.Internal.Xaml.Parser
 {

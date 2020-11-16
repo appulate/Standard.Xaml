@@ -10,9 +10,10 @@
 //               direct content of the class when written to XAML.
 //
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
 
     /// <summary>

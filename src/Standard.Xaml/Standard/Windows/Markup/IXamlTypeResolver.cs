@@ -10,9 +10,10 @@
 //
 //
 
+using System;
 using System.Runtime.CompilerServices;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     /// Provides services to help resolve nsPrefix:LocalName into the appropriate Type.

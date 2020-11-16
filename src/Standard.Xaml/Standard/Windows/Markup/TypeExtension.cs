@@ -10,11 +10,12 @@
 *
 \***************************************************************************/
 
+using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Xaml;
+using Standard.Xaml;
 
-namespace System.Windows.Markup
+namespace Standard.Windows.Markup
 {
     /// <summary>
     ///  Class for Xaml markup extension for a Type reference.  

@@ -1,1 +1,0 @@
-<TestClassWithDifferentBaseNamespace Bar="TheBar" SomeOtherProperty="OtherValue" TheName="MyName" xmlns="urn:mono-test2" />

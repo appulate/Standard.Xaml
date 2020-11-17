@@ -39,7 +39,7 @@ namespace System {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("System.Xaml.Resources.SRID", typeof(SRID).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Standard.Xaml.Resources.SRID", typeof(SRID).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

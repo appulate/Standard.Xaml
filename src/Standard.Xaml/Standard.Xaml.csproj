@@ -4,6 +4,13 @@
     <NoWarn>$(NoWarn);0618;NU5125;</NoWarn>
     <DefineConstants>$(DefineConstants);STANDARD_XAML</DefineConstants>
     <Platforms>x64</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Standard.Xaml</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>.NET, corewf and Appulate teams</Authors>
+    <Company>Appulate</Company>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.7.0" />
